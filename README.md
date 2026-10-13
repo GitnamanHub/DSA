@@ -4,18 +4,23 @@ A curated collection of my data structures and algorithms practice solutions, pr
 
 ## Topics
 
-- **Arrays** — array manipulation, pairs, duplicates, rotations, and related problems
-- **Strings** — palindrome checks, permutations, compression, and string manipulation
-- **Sorting** — bubble, selection, and insertion sort
-- **Searching** — linear and binary search
-- **Recursion** — recursive array/string problems and subsequences
-- **Matrices** — spiral traversal, image rotation, and matrix search
-- **Mathematics** — primes, GCD, factorials, powers, and number problems
+| Topic | What's covered |
+|---|---|
+| [Arrays](arrays/) | Array manipulation, pairs, duplicates, rotations, and merging |
+| [Strings](strings/) | Palindromes, permutations, compression, and string manipulation |
+| [Sorting](sorting/) | Bubble, selection, and insertion sort |
+| [Searching](searching/) | Linear and binary search |
+| [Recursion](recursion/) | Recursive array problems and subsequences |
+| [Matrices](matrices/) | Spiral traversal, image rotation, and matrix search |
+| [Mathematics](mathematics/) | Primes, GCD, factorials, powers, and number problems |
 
-## Layout
+## Repository layout
 
-Solutions are grouped by topic, with each original problem kept in its own folder to retain useful filenames and avoid collisions. Generated binaries and editor-specific files are excluded.
+Each solution is grouped under its topic and a folder named after the original practice repository. This keeps similarly named files separate and makes it easy to find the source problem.
 
 ## Notes
 
-These are learning and practice implementations. Some problems may include multiple approaches, including optimized variants.
+- These are learning and practice implementations, not production libraries.
+- Where available, alternative implementations are retained as separate files.
+- Compiled binaries and editor-specific files are excluded; see [`.gitignore`](.gitignore).
+- This repository contains the solution files, not the original repositories' Git histories.
