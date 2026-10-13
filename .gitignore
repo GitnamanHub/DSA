@@ -1,0 +1,19 @@
+# Compiled binaries and build artifacts
+*.exe
+*.out
+*.class
+*.o
+*.a
+*.so
+*.dylib
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+.vscode/
+.idea/
